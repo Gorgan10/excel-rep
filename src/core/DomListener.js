@@ -12,8 +12,8 @@ export class DomListener {
   initDOMListeners() {
     this.listeners.forEach(listener => {
       const method = getMethodName(listener)
-      this[method] = this[method].bind(this)
       if (this[method]) {
+        this[method] = this[method].bind(this)
         this.$root.on(listener, this[method])
       } else {
         throw new Error(
