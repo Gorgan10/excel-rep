@@ -8,12 +8,8 @@ export function resizeHandler($root, event) {
   const sideProp = type === 'col' ? 'bottom' : 'right'
   let value
 
-  $resizer.css({
-    opacity: 1,
-    [sideProp]: '-5000px'
-  })
-
   document.onmousemove = e => {
+    $resizer.css({opacity: 1, [sideProp]: '-5000px'}) // temporary styles
     if (type === 'col') {
       const delta = e.pageX - coords.right
       value = coords.width + delta
