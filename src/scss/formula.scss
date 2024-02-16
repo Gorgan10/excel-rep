@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid $border-color;
+  user-select: none;
 
   .info {
     font-size: 18px;

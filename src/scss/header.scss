@@ -10,6 +10,7 @@
   padding: 8px 4px 0;
   display: flex;
   justify-content: space-between;
+  user-select: none;
 
   .input {
     margin: 0;
@@ -18,7 +19,7 @@
     color: #1f1f1f;
     border: 1px solid transparent;
     border-radius: 4px !important;
-    height: 20px;
+    height: 22px;
     font-size: 18px;
     line-height: 22px;
     outline: none;

@@ -1,0 +1,5 @@
+export const TABLE_TITLE = 'TABLE_TITLE'
+export const TABLE_RESIZE = 'TABLE_RESIZE'
+export const CHANGE_TEXT = 'CHANGE_TEXT'
+export const CHANGE_STYLES = 'CHANGE_STYLES'
+export const CURRENT_STYLES = 'CURRENT_STYLES'
