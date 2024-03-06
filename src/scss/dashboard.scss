@@ -2,6 +2,7 @@
 @import "mixins";
 
 .db {
+  user-select: none;
 
   &__header {
     position: fixed;
@@ -84,6 +85,9 @@
       cursor: pointer;
       color: #202124;
       font-size: 14px;
+      display: block;
+      width: 100%;
+      height: 100%;
 
       &:hover {
         text-decoration: underline;
