@@ -30,3 +30,5 @@ The goal of this project was to improve my JavaScript knowledge and skills. This
 git clone https://github.com/yourusername/excel-replica.git
 npm i
 npm run build
+
+Thanks to my mentor @VladilenMinin
