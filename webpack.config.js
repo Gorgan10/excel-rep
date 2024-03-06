@@ -75,6 +75,7 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+        include: path.resolve(__dirname, 'src/scss')
       },
       {
         test: /\.m?js$/,
