@@ -27,7 +27,6 @@ function getAllKey() {
 
 export function createTableRecords() {
   const keys = getAllKey()
-  console.log('keys: ', keys)
   if (!keys.length) {
     return `You have not created any sheets`
   }
