@@ -15,12 +15,12 @@ This web application is a SPA (Single Page Application) developed in pure JavaSc
 
 ## Technologies and tools
 
-- JavaScript: the main programming language.
-- HTML and SCSS: for user interface markup and styling.
-- Proprietary Redux-like stateful management.
-- Proprietary library with jQuery-like methods for data manipulation.
-- Webpack: basic setup for building and optimizing code.
-- Jest: Used for writing basic unit tests.
+- **JavaScript:** the main programming language.
+- **HTML and SCSS:** for user interface markup and styling.
+- **Proprietary Redux-like stateful management**
+- **Proprietary library with jQuery-like methods for data manipulation**
+- **Webpack:** basic setup for building and optimizing code.
+- **Jest:** Used for writing basic unit tests.
 
 ## Project Goal: Improve JavaScript skills
 
