@@ -4,7 +4,7 @@ This project is a replica of the popular Excel application developed using JavaS
 
 ## Description
 
-This web application is a SPA (Single Page Application) developed in pure JavaScript without the use of frameworks or libraries. During the development process, a custom Redux-like state-management was implemented, as well as a library with application-specific methods. This library is similar in principle to jQuery.
+This web application is a SPA (Single Page Application) developed in pure JavaScript without the use of frameworks or libraries. During the development process, a custom Redux-like state-management was implemented, as well as a library with application-specific methods. This library is similar in principle to jQuery. Basic unit tests have also been implemented for some components.
 
 ## Functionality
 
@@ -20,6 +20,7 @@ This web application is a SPA (Single Page Application) developed in pure JavaSc
 - Proprietary Redux-like stateful management.
 - Proprietary library with jQuery-like methods for data manipulation.
 - Webpack: basic setup for building and optimizing code.
+- Jest: Used for writing basic unit tests.
 
 ## Project Goal: Improve JavaScript skills
 
